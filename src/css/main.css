@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    color-scheme: light dark;
+}
+
+.header {
+    background-color: rgb(247, 168, 21);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.boton-header{
+    color: black;
+    text-decoration: none;   
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-link {
+    color :rgb(3, 3, 3);
+    text-decoration: none;
+
+}
+
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.products-container {
+    min-height: 30vh;
+    display: grid;
+    place-items: center;
+}
+
+.producto-info{
+    min-height: 30vh;
+    display: grid;
+    place-items: center;
+}
+
+.nopunto{
+    list-style: none;
+}
+
+.oscuro {
+    background-color: black !important;
+}
+
+.item-list-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.productos-grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.producto {
+    background-color: rgb(247, 168, 21);
+    border-radius: .5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.boton-vermas{
+    color: rgb(255, 255, 255);
+    text-decoration: none;   
+}
+
+.botones-cantidad{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+}
+
+.productos-grilla > div > img {
+    height: 200px;
+    width: 200px;
+    border-radius: .5rem;
+}
+
+.grid {
+    display: grid;
+    
+}
+
+footer {
+    margin-top: 30rem;
+}

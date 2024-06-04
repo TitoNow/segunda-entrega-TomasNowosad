@@ -1,0 +1,18 @@
+[
+    {
+        "id": "procesadores",
+        "nombre": "Procesadores"
+    },
+    {
+        "id": "motherboards",
+        "nombre": "Motherboards"
+    },
+    {
+        "id": "monitores",
+        "nombre": "Monitores"
+    },
+    {
+        "id": "test",
+        "nombre": "Futuro agregado"
+    }
+]
